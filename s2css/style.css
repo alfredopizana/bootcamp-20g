@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kumbh Sans', 'sans-serif';
+    
+}
+
+header{
+    background: lightgreen;
+    font-family: 'Dancing Script', cursive;
+}
+
+header{
+    background-color: mediumslateblue;
+}
+
+
+
+.submenu-item > a {
+    text-decoration: none;
+}
+
+.card{
+    background-color: palegoldenrod;
+    width: 45%;
+    height: 250px;
+    border-radius: 15px;
+    padding: 15px;
+    padding-top: 40px;
+    margin: 15px;
+    display: inline-block;
+}
+.card.green,
+.card.blue{
+    line-height: 20px;
+}
+.card h2{
+    margin-bottom: 15px;
+}
+
+aside{
+    width: 20%;
+    background-color: dimgray;
+    display: inline-block;
+    height: 700px;
+    vertical-align: top;
+    margin-left: 5%;
+}
+main{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+div.cards-space{
+    padding: 30px;
+}
+
+aside{
+    /*Propiedades de texto*/
+    color: white;
+    line-height: 2;
+    font-size: 20px;
+}
+aside ul > li{
+    list-style: none;
+}
+
+.lateral-list{
+    padding: 20px;
+}
+
+.orange{
+    background-color: tomato;
+}
+.green{
+    background-color: limegreen;
+}
+.blue{
+    background-color:cornflowerblue;
+}
+
+.text-color-white{
+    color: white;
+}
+
+#first-element{
+    background: red;
+}
