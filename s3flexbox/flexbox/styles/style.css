@@ -1,0 +1,47 @@
+.flex-wrapper{
+    display: flex;
+    border: 3px solid peru;
+    width: 750px;
+    height: 200px;
+    margin: 20px auto;
+}
+.item{
+    width: 50px;
+    height: 50px;
+}
+.green{
+    background: #34eb52;
+}
+.gray{
+    background-color: dimgray;
+}
+.peru{
+    background-color: tomato;
+}
+
+.justify-flex-start{
+    justify-content: flex-start;
+}
+.justify-flex-end{
+    justify-content: flex-end;
+}
+.justify-flex-center{
+    justify-content: center;
+}
+.justify-flex-space-between{
+    justify-content: space-between;
+}
+
+.justify-flex-space-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-flex-space-around{
+    justify-content: space-around;
+}
+.align-items-baseline{
+    align-items: baseline;
+}
+.padding-top-20{
+    padding-top: 20px;
+}

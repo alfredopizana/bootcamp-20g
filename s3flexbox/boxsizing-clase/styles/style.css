@@ -1,0 +1,28 @@
+.box-default{
+    background: tomato;
+    height: 150px;
+    width: 150px;
+
+}
+.box-wrapper{
+    background: tomato;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 5px solid blue;
+    margin: 10px;
+}
+.box-old{
+    background: tomato;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    box-sizing: content-box;
+    border: 5px solid blue;
+    margin: 10px;
+}
+
+.justify-flex-start{
+    justify-content: flex-start;
+}

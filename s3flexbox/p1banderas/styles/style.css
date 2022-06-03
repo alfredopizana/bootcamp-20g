@@ -1,0 +1,88 @@
+.bandera{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    margin: 30px auto;
+}
+
+.bandera.francia{
+
+}
+
+.bandera.francia .fila{
+    flex: 100% 1 1;
+}
+
+.bandera.francia .fila:first-child{
+    background-color: #001840;
+
+}
+.bandera.francia .fila:last-child{
+    background-color: #c9072a;
+}
+.bandera.suecia{
+    background-color: #ffd600;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bandera.suecia .fila{
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.bandera.suecia .fila .columna{
+    width: 31.25%;
+    background-color:#006aa8;
+}
+.bandera.suecia .fila .columna:nth-child(2){
+    width: 56.25%;
+}
+
+.bandera.suecia-v2{
+    background-color: #ffd600;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bandera.suecia-v2 .fila{
+    flex-basis: 40%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.bandera.suecia-v2 .fila .columna{
+    flex-basis: 31.25%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    background-color:#006aa8;
+}
+.bandera.suecia-v2 .fila .columna:nth-child(2){
+    flex-basis: 56.25%;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.bandera.mexico{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.bandera.mexico .fila{
+    flex-grow: 1;
+    flex-basis: 100%;
+    flex-shrink: 1;
+}
+.bandera.mexico .fila:first-child{
+    background: #01684a;
+}
+.bandera.mexico .fila:last-child{
+    background: #ce1127;
+}
+.bandera.mexico .escudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bandera.mexico .escudo img{
+    max-width: 70%;
+}
