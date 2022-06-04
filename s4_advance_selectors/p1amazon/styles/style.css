@@ -1,0 +1,106 @@
+*{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+}
+body{
+    background-color: #eaeded;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+header{
+    height: 100px;
+    background-color: #232f3e;
+}
+
+main{ 
+    max-width: 1500px;
+    margin: 0 auto;
+}
+footer{
+    height: 350px;
+    background-color: #232f3e;
+}
+
+.topics{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: stretch;
+}
+.topic{
+    background: blue;
+    flex-basis: 100%;
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;
+}
+.tiles{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    margin-bottom: 20px;
+}
+.tiles .tile-row{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+.tiles .tile-row .tile{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+.tiles .tile-row .tile span{
+    font-size: 12px;
+}
+.tiles .tile-row .tile img{
+    max-width: 100%;
+}
+
+
+#animacion:checked + label {
+    color: red;
+}
+
+
+ul li[class^="item"]{
+    background-color: yellow;
+}
+
+ul li[class$="1"]{
+    background-color: red;
+}
+
+button.login{
+    margin: 30px;
+    padding: 10px 20px;
+    background: aqua;
+}
+
+button.login:hover{
+    background-color: blue;
+}
+
+#animacion:checked + label {
+    color: red;
+}
+
+
+#animacion + label::before{
+    content: "Activar Animacion";
+}
+#animacion:checked + label::before{
+    content: "Desactivar Animacion";
+}
+
+.menu{
+    display:none;
+}
+
+#animacion:checked ~ .menu{
+    display: block;
+}

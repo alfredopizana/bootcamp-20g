@@ -1,0 +1,31 @@
+form {
+    background-color: #557777;
+    padding: 30px;
+}
+
+
+.form-group.pseudo-elements label::before{
+    content: "Iniciar Animacion";
+}
+
+.form-group.pseudo-elements input:checked ~ label::before{
+    content: "Detener Animacion";
+}
+.form-group.pseudo-elements input ~ .progress-bar{
+    height: 50px;
+    background: aquamarine;
+    width: 1px;   
+}
+@keyframes progressbar{
+    from {
+        width: 1px;
+    }
+    to{
+        width: 200px;
+    }
+}
+
+.form-group.pseudo-elements input:checked ~ .progress-bar{
+    animation: progressbar 2s linear;
+    animation-play-state: running;
+} 
