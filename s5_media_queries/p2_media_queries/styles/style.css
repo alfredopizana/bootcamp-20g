@@ -1,0 +1,17 @@
+.element{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
+@media only screen and (min-width:768px){
+    .element{
+        border-radius: 50%;
+    }
+}
+@media only screen and (min-width:1200px){
+    .element{
+        width: 200px;
+        background: green;
+        border-radius: 0;
+    }
+}
