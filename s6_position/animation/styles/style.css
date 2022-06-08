@@ -13,7 +13,7 @@ body{
     height: 200px;
     width: 200px;
     background: cyan;
-    animation: myanimacion 2s linear infinite;
+    animation: box 2s linear infinite;
 }
 
 
@@ -29,29 +29,6 @@ body{
     
 }
 
-/*
-@keyframes box {
-    0%{
-        top: 0px;
-        bottom: auto;
-        left: 0px;
-        right: auto;
-    }
-    25%{
-        top: 0px;
-        left: auto;
-        right: 0px;
-    }
-    50%{
-        top: auto;
-        bottom: 0px;
-    }
-    75%{
-        left: 0px;
-        right: auto;
-    }
-}*/
-/*
 @keyframes box {
     0%{
         left: 0;
@@ -71,23 +48,15 @@ body{
     
 }
 
-*/
-
-
-
-
-
-
 /*transition*/
-/*
-.animated-item{
 
-    animation: caja-animada 3s infinite;
-
+.animated-item2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: tomato;
+    animation: caja-animada 5s linear infinite;
 }
-
-
-
 @keyframes caja-animada{
     0%{
         left: 0;
@@ -98,10 +67,10 @@ body{
         border-radius: 50%;
         background-color: peru;
         width: 50px;
-        height: 400px;
+        height: 200px;
     }
     100%{
         left: 0;
         border-radius: 0%;
     }
-}*/
+}
