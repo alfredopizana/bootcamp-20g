@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    height: 200vh;
+    width: 100vw;
+}
+.animated-item{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: cyan;
+    animation: myanimacion 2s linear infinite;
+}
+
+
+@keyframes myanimacion {
+    from{
+        left: 0px;
+        top: 0px;
+    }
+    to{
+        left: 200px;
+        top: 200px;
+    }
+    
+}
+
+/*
+@keyframes box {
+    0%{
+        top: 0px;
+        bottom: auto;
+        left: 0px;
+        right: auto;
+    }
+    25%{
+        top: 0px;
+        left: auto;
+        right: 0px;
+    }
+    50%{
+        top: auto;
+        bottom: 0px;
+    }
+    75%{
+        left: 0px;
+        right: auto;
+    }
+}*/
+/*
+@keyframes box {
+    0%{
+        left: 0;
+        top: 0;
+        border-radius: 0;
+    }
+    50%{
+        left: 400px;
+        top: 400px;
+        border-radius: 50%;
+    }
+    100%{
+        left: 0;
+        top: 0;
+        border-radius: 0;
+    }
+    
+}
+
+*/
+
+
+
+
+
+
+/*transition*/
+/*
+.animated-item{
+
+    animation: caja-animada 3s infinite;
+
+}
+
+
+
+@keyframes caja-animada{
+    0%{
+        left: 0;
+        border-radius: 0;
+    }
+    50%{
+        left: 500px;
+        border-radius: 50%;
+        background-color: peru;
+        width: 50px;
+        height: 400px;
+    }
+    100%{
+        left: 0;
+        border-radius: 0%;
+    }
+}*/

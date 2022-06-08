@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    height: 200vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    
+    height: 100%;
+}
+.red-wrapper{
+    position: relative;
+    background: rgba(210, 25, 25,.1);
+    width: 300px;
+    height: 300px;
+    left: 50px;
+    top: 50px;
+    /*opacity: .5;*/
+}
+.cyan-box{
+    position: absolute;
+    background: cyan;
+    height: 40px;
+    width: 40px;
+    bottom: 30px;
+    left: 200px;
+}
+
+.fixed-item{
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    background: peru;
+    right: 40px;
+    top: 40px;
+    border-radius: 50%;
+}
