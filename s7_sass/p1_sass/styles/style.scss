@@ -1,4 +1,5 @@
 @import "variables";
+@import "cards";
 
 $card-color: #377;
 $secondary: tomato;
@@ -11,10 +12,13 @@ $primary-color: blue;
     border: 2px solid $card-color;
     border-radius: .5rem;
 }
-
+@mixin empty-content {
+    content: "";
+}
 
 .btn{
     @include base-button-props;
+    @include empty-content;
     background-color: $primary-color;
 }
 
@@ -38,6 +42,8 @@ $primary-color: blue;
     padding: 1rem;
 
     background: $card-color;
+    flex: 1;
+    opacity: 1;
     .image{
 
     }
@@ -66,7 +72,12 @@ $primary-color: blue;
     }
     
 }
-
+@media only screen and (min-width:768px){
+    .container{
+        max-width: 1200px;
+    }
+    
+}
 
 
 $types-of-buttons: ("primary":$primary-color, "secondary": $secondary-color, "disable": #ccc);

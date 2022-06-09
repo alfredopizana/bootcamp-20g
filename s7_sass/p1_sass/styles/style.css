@@ -1,8 +1,13 @@
+.card {
+  height: 100px;
+}
+
 .btn {
   padding: .5rem 1rem;
   min-width: 200px;
   border: 2px solid #377;
   border-radius: .5rem;
+  content: "";
   background-color: blue;
 }
 
@@ -20,6 +25,10 @@
   margin: 8px;
   padding: 1rem;
   background: #377;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  opacity: 1;
 }
 
 .container {
@@ -50,6 +59,12 @@
 
 .container ul + a:hover {
   background: green;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 .btn-primary {
