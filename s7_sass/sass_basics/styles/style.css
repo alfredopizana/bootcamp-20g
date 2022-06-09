@@ -1,0 +1,68 @@
+.btn {
+  padding: 1rem 2rem;
+  border: 3px solid mediumseagreen;
+  text-decoration: none;
+  border-radius: .5rem;
+  background-color: mediumseagreen;
+}
+
+.btn:hover {
+  background: mediumspringgreen;
+  -webkit-box-shadow: 2px 2px 4px mediumseagreen;
+          box-shadow: 2px 2px 4px mediumseagreen;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: mediumseagreen;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.items {
+  height: 200px;
+}
+
+.items .item {
+  height: 15px;
+}
+
+.items.variant {
+  color: gray;
+}
+
+.icon-apple {
+  content: "apple";
+}
+
+.icon-orange {
+  content: "orange";
+}
+
+.icon-banana {
+  content: "banana";
+}
+
+.btn-small {
+  width: 200px;
+}
+
+.btn-medium {
+  width: 400px;
+}
+
+.btn-large {
+  width: 600px;
+}
+/*# sourceMappingURL=style.css.map */

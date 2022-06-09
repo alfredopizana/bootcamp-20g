@@ -1,0 +1,47 @@
+@import 'base';
+@import 'buttons';
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $font-stack;
+    color: $primary-color;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.items{
+    height: 200px;
+    .item{
+        height: 15px;
+    }
+    &.variant{
+        color: gray;
+    }
+}
+
+
+
+$icons: "apple", "orange", "banana";
+
+@each $icon in $icons {
+    .icon-#{$icon}{
+        content:"#{$icon}";
+    }
+}
+
+$sizes: ("small":200px,"medium":400px,"large":600px);
+
+
+@each $name,$size in $sizes {
+
+    .btn-#{$name}{
+        width: $size;
+    }
+}
