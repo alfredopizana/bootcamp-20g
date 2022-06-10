@@ -1,5 +1,97 @@
 @import "variables";
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    border-width: 0px;
+}
+
 body{
     font-family: $font-family-system;
+}
+header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    border-bottom: 1px solid $primary-border-color;
+    height: 60px;
+
+    nav{
+        width: 100%;
+        max-width: 975px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 1.25rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        .logo{
+            width: 103px;
+            img{
+                width: 100%;
+            }
+        }
+        .centered-navigation{
+            display: none;
+            .search{
+                position: relative;
+                input{
+                    border: none;
+                    background-color: $highlight-background;
+                    width: 100%;
+                    max-width: 236px;
+                    height: 36px;
+                    border-radius: .5rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    &:focus{
+                        ~ .search-icon{
+                            display: none;
+                        }
+                    }
+                }
+                .search-icon{
+                    position: absolute;
+                    left: 1rem;
+                }
+            }
+        }
+        .nav-actions{
+            
+            ul{
+                list-style: none;
+                display: flex;
+                
+                li{
+                    margin-left: 22px;
+                    a{
+                        img{
+                            display: block;
+                            height: 36px;
+                            width: 36px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:768px){
+    header{
+        nav{
+            .centered-navigation{
+                display: flex;
+                align-items: center;
+                .search{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
 }
