@@ -1,0 +1,41 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+h3 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.types-of-cars {
+  min-height: 500px;
+}
+
+.types-of-cars .type-of-car img {
+  max-width: 60px;
+}
+
+.bg-brig-orange {
+  background-color: #e38826;
+}
+
+.bg-dark-cyan {
+  background-color: #006970;
+}
+
+.bg-very-dark-cyan {
+  background-color: #004241;
+}
+
+.text-brig-orange {
+  color: #e38826;
+}
+
+.text-dark-cyan {
+  color: #006970;
+}
+
+.text-very-dark-cyan {
+  color: #004241;
+}
+/*# sourceMappingURL=style.css.map */

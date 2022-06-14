@@ -1,0 +1,40 @@
+@import "variables";
+body{
+    font-family: $font-main;
+    font-size: 15px;
+}
+h3{
+    font-family: $font-header;
+}
+.types-of-cars{
+    min-height: 500px;
+    .type-of-car{
+        img{
+            max-width: 60px;
+        }
+    }
+}
+.bg-brig-orange{
+    background-color: $bright-orange;
+}
+
+.bg-dark-cyan{
+    background-color: $dark-cyan;
+}
+
+.bg-very-dark-cyan{
+    background-color: $very-dark-cyan;
+}
+
+.text-brig-orange{
+    color: $bright-orange;
+}
+
+
+.text-dark-cyan{
+    color: $dark-cyan;
+}
+
+.text-very-dark-cyan{
+    color: $very-dark-cyan;
+}

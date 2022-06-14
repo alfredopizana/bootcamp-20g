@@ -7,6 +7,8 @@
   min-width: 200px;
   border: 2px solid #377;
   border-radius: .5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
   content: "";
   background-color: blue;
 }
@@ -53,6 +55,8 @@
   min-width: 200px;
   border: 2px solid #377;
   border-radius: .5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
   padding: 1rem;
   background-color: aqua;
 }

@@ -95,3 +95,19 @@ header{
         }
     }
 }
+
+.pagina_2{
+    margin-top: 60px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    .background{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        object-fit: fill;
+        width: 200vw;
+        object-position: center center;
+    }
+}

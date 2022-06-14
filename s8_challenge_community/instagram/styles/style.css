@@ -109,4 +109,23 @@ header nav .nav-actions ul li a img {
             align-items: center;
   }
 }
+
+.pagina_2 {
+  margin-top: 60px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.pagina_2 .background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 200vw;
+  -o-object-position: center center;
+     object-position: center center;
+}
 /*# sourceMappingURL=style.css.map */
