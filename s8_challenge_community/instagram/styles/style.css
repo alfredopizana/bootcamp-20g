@@ -18,6 +18,7 @@ header {
   right: 0px;
   border-bottom: 1px solid #dbdbdb;
   height: 60px;
+  background-color: white;
 }
 
 header nav {
@@ -87,12 +88,62 @@ header nav .nav-actions ul li {
 
 header nav .nav-actions ul li a {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav .nav-actions ul li a img {
   display: block;
-  height: 36px;
-  width: 36px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+
+main {
+  max-width: 975px;
+  background: gray;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .profile .main-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .profile .main-actions .profile-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .profile .main-actions .profile-picture .picture-border {
+  border: 2px solid black;
+  background: -webkit-gradient(linear, left top, right top, from(red), to(blue));
+  background: linear-gradient(to right, red, blue);
+  overflow: hidden;
+  padding: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .profile .main-actions .profile-picture .picture-border > img {
+  border-radius: 50%;
+}
+
+.custom {
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -111,6 +162,21 @@ header nav .nav-actions ul li a img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  main {
+    padding: 30px 20px;
+  }
+  main .profile .main-actions {
+    min-height: 100px;
+  }
+  main .profile .main-actions .profile-picture {
+    width: 320px;
+  }
+  main .profile .main-actions .profile-picture > img {
+    position: absolute;
+  }
+  main .profile .description {
+    margin-left: 320px;
   }
 }
 
@@ -175,6 +241,11 @@ header nav .nav-actions ul li a img {
      object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+/* Seccion Oculta */
+.flip-card {
+  display: none;
 }
 
 .dvd-animation {

@@ -1,0 +1,9 @@
+.contenedor-flexible {
+  background-color: peru;
+  height: 500px;
+}
+
+.contenedor-flexible p {
+  content: "hola";
+}
+/*# sourceMappingURL=style.css.map */
