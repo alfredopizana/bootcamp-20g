@@ -1,0 +1,8 @@
+.btn {
+  &.btn-gradient {
+    background: $gradient-primary;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    color: $very-light-gray;
+  }
+}
