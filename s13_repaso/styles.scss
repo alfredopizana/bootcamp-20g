@@ -1,0 +1,48 @@
+@import "variable";
+
+$mivariable: red;
+$miVaraible2: blue;
+
+$altura: 200px;
+
+@mixin initial-background-color {
+    background: yellow;
+    
+}
+
+@mixin custom-border{
+    @include initial-background-color;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 100px;
+    min-width: 200px;
+} 
+
+
+
+.micomponente{
+    @include custom-border;
+    font-weight: 400;
+    color: red;
+    > .item{
+        color: black;
+    }
+    a{
+        text-decoration: none;
+    }
+    &:hover{
+        color: blue;
+    }
+    &::before{
+        content: "Contenido Before";
+    }
+    &::after{
+        content: "Contenido After";
+    }
+}
+
+
+
+
+

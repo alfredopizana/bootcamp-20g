@@ -1,0 +1,35 @@
+header {
+  height: 100px;
+}
+
+.micomponente {
+  background: yellow;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  height: 100px;
+  min-width: 200px;
+  font-weight: 400;
+  color: red;
+}
+
+.micomponente > .item {
+  color: black;
+}
+
+.micomponente a {
+  text-decoration: none;
+}
+
+.micomponente:hover {
+  color: blue;
+}
+
+.micomponente::before {
+  content: "Contenido Before";
+}
+
+.micomponente::after {
+  content: "Contenido After";
+}
+/*# sourceMappingURL=styles.css.map */
