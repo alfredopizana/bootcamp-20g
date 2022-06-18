@@ -1,0 +1,52 @@
+.post-detail h1 {
+  font-weight: bold;
+}
+
+.post-detail h1:hover {
+  cursor: pointer;
+}
+
+.post-detail .tags .tag {
+  background-color: yellow;
+  height: 100px;
+  font-size: 20px;
+}
+
+.post-detail .tags .tag:hover {
+  -webkit-filter: brightness(3);
+          filter: brightness(3);
+}
+
+.post-detail .tags .tag.tag-blue {
+  background-color: blue;
+}
+
+.post-detail .tags .tag.tag-blue:hover {
+  -webkit-filter: brightness(3);
+          filter: brightness(3);
+  color: white;
+  text-decoration: none;
+  background-color: darkblue;
+}
+
+.post-detail .tags .tag.tag-red {
+  background-color: red;
+}
+
+.post-detail .tags .tag.tag-black {
+  background-color: black;
+  color: white;
+}
+
+.post-detail .algo-adicional-para-el-padre {
+  border: 2px solid yellow;
+}
+
+.post-detail .padre {
+  font-size: 16;
+}
+
+.post-detail .padre.algo-adicional-para-el-padre {
+  border: 2px solid blueviolet;
+}
+/*# sourceMappingURL=style.css.map */

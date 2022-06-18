@@ -1,0 +1,47 @@
+.post-detail{
+    h1{
+        font-weight: bold;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .tags{
+        
+        .tag{
+            background-color: yellow;
+            height: 100px;
+            font-size: 20px;
+            &:hover{
+                filter:brightness(3);
+            }
+            &.tag-blue{
+                background-color: blue;
+                &:hover{
+                    filter:brightness(3);
+                    color: white;
+                    text-decoration: none;
+                    background-color: darkblue;
+                }
+            }
+            &.tag-red{
+                background-color: red;
+            }
+            &.tag-black{
+                background-color: black;
+                color: white;
+            }
+        }
+        
+    }
+    .algo-adicional-para-el-padre{
+        border: 2px solid yellow;
+    }
+    .padre{
+        font-size: 16;
+
+        &.algo-adicional-para-el-padre{
+            border: 2px solid blueviolet;
+        }
+    }
+    
+}
